@@ -1,58 +1,307 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Week 2</title>
-    <link href="../../styles.css" rel="stylesheet">
-</head>
-<body>
-            <nav>
-            <strong><a href="../../index.html">Something Material</a></strong>
-            <a href="../honours.html">Honours Journal</a>
-            <!-- <a href="../ramblings.html">Ramblings</a> -->
-        </nav>
-        <h1>Week 2</h1>
-    </head>
+    <link href="../../styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <strong><a href="../../index.html">Something Material</a></strong>
+        <a href="../honours.html">Honours Journal</a>
+        <!-- <a href="../ramblings.html">Ramblings</a> -->
+      </nav>
+    </header>
+    <h1>Week 2</h1>
     <main>
-        
+      <h4>Collect and Catalogue</h4>
+      <h5>Aims</h5>
+      <p>
+        I wanted to explore the use of language in the tech arena, and so
+        decided to gather some screenshots of taglines i found on various AI
+        companies websites (Gemini, Claude, OpenAI, xAI etc). I think a lot of
+        this language varies from fluff to straight up deception and psyop
+        levels, but I wanted to try and present the words in a way that makes
+        the viewer consider the language and what it means, what the words are
+        actually doing outside of their original context. Perhaps this will
+        reveal something about the nature of the marketing language and its
+        influence on us.
+      </p>
+      <h5>Precedents / Context:</h5>
+      <p>
+        I just want to get more in the habit of making stuff, so I admittedly
+        didn't search for projects or visual precedents and just rolled with the
+        idea as they came but I have been reading about this area: We need to
+        talk about how we talk about AI by Emily M. Bender, Nanna Inie. In this
+        article Bender and Inie discuss how much of the language of AI is in
+        terms of cognition and emotions, how it makes it sound like its thinking
+        and how it is its own entity that the corporation can't entirely be
+        blamed for.
+      </p>
+      <h5>Process / Methods:</h5>
+      <p>
+        To collect the quotes I just explored the marketing pages of the big AI
+        companies, there was plenty of material but I admittedly was selective
+        in choosing short snappy statements that say a lot but also very little.
+        I screenshot them and collated them on a figma file to look at as a
+        whole.
+      </p>
+      <p>
+        As I was exploring I found this crazy interactive element on the xAI
+        website that was selling itself as some kind of sci-fi deity, and began
+        to wonder what would these words look like with different visuals?
+      </p>
+      <p>
+        So I decided to try and create some "scenes" to display all the
+        different quotes in to see if it gives them a different feeling, if it
+        makes the words meaning change. The idea was to make an interactive web
+        scene with vector illustrations that animate, so I created some
+        illustrations in Illustrator. I then created a simple website that
+        allows to scroll through the scenes and flick through some of the
+        quotes.
+      </p>
+      <h5>Reflection</h5>
+      <p>
+        After designing the artwork, which I had made vector based because it is
+        suitable for the web (low file sizes, animatable etc) I was looking at
+        it and realised these factors that make it suitable for the web also
+        make it feel like it is too closely speaking the language of the web
+        that I wanted to challenge (or at least investigate) so I think trying
+        some different styles or seeing how vector illustrations can be pushed
+        to a different sort of language would be beneficial to this project.
+      </p>
+      <p>
+        When trying to make a simple web prototype I came across the challenge
+        of working with code, there are always many little intricacies involved
+        in creating the things that we use and interact with daily. It is
+        challenging to work through these, and as it is impossible to avoid the
+        endless hype on the internet around LLMs and their ability to code I
+        would occasionally ask them for help. I must admit the feedback is quite
+        impressive, it would look at a small snippet and say oh, this function
+        name you have created is the same as a default function that exists so
+        it is creating a conflict that the code cannot handle. I would never be
+        able to work this out without someone who knew that default function
+        exists. While it can create things for you, I think as I am approaching
+        this from a visual perspective, if I don't also understand it, I can't
+        edit it to do what I actually designed in the way I designed it, so I
+        find it more useful to try the thing and when I'm truly stuck looking at
+        something that I can't possibly progress with, to ask for help. However,
+        this doesn't make it an experience without a sense of unease.
+      </p>
+      <p>
+        Once I had a basic working prototype, I found myself drawn to the scene
+        with the flowers. Some of the language juxtaposed to a scene of flowers
+        seemed to asking a more interesting question about knowledge, teamwork,
+        experts, or whatever else the quotes I had gathered were discussing.
+        What if we spoke about nature as we did AI? What else do we not consider
+        that could be interesting to speak of this way?
+      </p>
+      <!-- overview map  -->
+      <div class="section" id="overview_map">
         <h4>Overview Map</h4>
         <h5>Pinpoint some topics</h5>
-        <p>I am interested in how metaphors shape worldviews and how design/futuring can be used to shape that language and consequently worldview, because I find the language of marketing and the tech hegemony to be slowly and insidiously shaping the way users see the world.</p>
-        <p>I am interested in how AI will impact the world of writing and how trust will be gauged by readers in a world of instantly generatable text, because at the moment nothing is sacred, nothing is beyond scepticism and debates rage under almost anything as to its authenticity.</p>
-        <p>I am interested into how AI (LLMs) is considered to be unknowable and how that shaped the arguments around it.</p>
-        <p>I am interested in how alternative technological systems could have shaped the world and/or our worldviews.</p>
-        <p>I am interested in what it means to be a maker in am imperfect world that demands you feel bad about it being already overflowing with things.</p>
+        <p>
+          I am interested in how metaphors shape worldviews and how
+          design/futuring can be used to shape that language and consequently
+          worldview, because I find the language of marketing and the tech
+          hegemony to be slowly and insidiously shaping the way users see the
+          world.
+        </p>
+        <p>
+          I am interested in how AI will impact the world of writing and how
+          trust will be gauged by readers in a world of instantly generatable
+          text, because at the moment nothing is sacred, nothing is beyond
+          scepticism and debates rage under almost anything as to its
+          authenticity.
+        </p>
+        <p>
+          I am interested into how AI (LLMs) is considered to be unknowable and
+          how that shaped the arguments around it.
+        </p>
+        <p>
+          I am interested in how alternative technological systems could have
+          shaped the world and/or our worldviews.
+        </p>
+        <p>
+          I am interested in what it means to be a maker in am imperfect world
+          that demands you feel bad about it being already overflowing with
+          things.
+        </p>
         <h5>Key Sources/Precedents</h5>
-        <p><a href="https://geminiprotocol.net/docs/faq.gmi">Gemini Protocol</a></p>
-        <p><a href="https://www.documentjournal.com/2021/01/the-internet-didnt-kill-counterculture-you-just-wont-find-it-on-instagram/">The internet didn't kill counterculture but you won't find it on Instagram</a></p>
-        <p><a>User Friendly - How the hidden rules of design are changing the way we live, work, and play</a></p>
-        <p><a href="https://tante.cc/2026/02/20/acting-ethical-in-an-imperfect-world/">Acting ethically in an imperfect world</a></p>
+        <p>
+          <a href="https://geminiprotocol.net/docs/faq.gmi">Gemini Protocol</a>
+        </p>
+        <p>
+          <a
+            href="https://www.documentjournal.com/2021/01/the-internet-didnt-kill-counterculture-you-just-wont-find-it-on-instagram/"
+            >The internet didn't kill counterculture but you won't find it on
+            Instagram</a
+          >
+        </p>
+        <p>
+          <a
+            >User Friendly - How the hidden rules of design are changing the way
+            we live, work, and play</a
+          >
+        </p>
+        <p>
+          <a
+            href="https://tante.cc/2026/02/20/acting-ethical-in-an-imperfect-world/"
+            >Acting ethically in an imperfect world</a
+          >
+        </p>
         <h5>Why do I care?</h5>
-        <p>I have realised that my feelings around design have been influenced by my worldview in a way that I haven't been able to tease out, or perhaps didn't realise it was something that I needed to. 
-Why should I make something to sell something? I don't like buying things. 
-Why should I make something when it feels like everything already exists? Even if I did would it be better?
-Why do I feel so incapable? Has the internet and its language, opacity and its backloadedness (you only ever see the end product and no idea of what happened before) subconsciously taught me that that level of fidelity is the minimum and expected?
-I am so able to critique, to see what works and what doesn't, existing online teaches you this, but its much harder to break down the reasons why, to make it digestible and into something that you can make. I want to break down these assumptions and mental models that have been shaped by an internet that wasn't designed to make me the best me that can achieve my high order goals and desires, and maybe somewhere along the way I can figure out how I might make things that will help other people too.</p>
+        <p>
+          I have realised that my feelings around design have been influenced by
+          my worldview in a way that I haven't been able to tease out, or
+          perhaps didn't realise it was something that I needed to. Why should I
+          make something to sell something? I don't like buying things. Why
+          should I make something when it feels like everything already exists?
+          Even if I did would it be better? Why do I feel so incapable? Has the
+          internet and its language, opacity and its backloadedness (you only
+          ever see the end product and no idea of what happened before)
+          subconsciously taught me that that level of fidelity is the minimum
+          and expected? I am so able to critique, to see what works and what
+          doesn't, existing online teaches you this, but its much harder to
+          break down the reasons why, to make it digestible and into something
+          that you can make. I want to break down these assumptions and mental
+          models that have been shaped by an internet that wasn't designed to
+          make me the best me that can achieve my high order goals and desires,
+          and maybe somewhere along the way I can figure out how I might make
+          things that will help other people too.
+        </p>
         <h5>Can I narrow the focus?</h5>
-        <p>I think I can, and I think the way I can see that happening is by putting it through a lens of something I am interested in, creative code, or interactive design. I think I want to think of the project as some kind of exhibition, perhaps speculative/science fiction that imagines a future or an alternate now that challenges something of the embedded assumptions of the tech hegemony we live with.</p>
+        <p>
+          I think I can, and I think the way I can see that happening is by
+          putting it through a lens of something I am interested in, creative
+          code, or interactive design. I think I want to think of the project as
+          some kind of exhibition, perhaps speculative/science fiction that
+          imagines a future or an alternate now that challenges something of the
+          embedded assumptions of the tech hegemony we live with.
+        </p>
         <h5>Do I have the resources and skills to interrogate this topic?</h5>
         <p>Some, not all, but by the end of the year I will.</p>
-        <br>
-        <h4>Readings</h4>
-        <h3><a href="https://www.documentjournal.com/2021/01/the-internet-didnt-kill-counterculture-you-just-wont-find-it-on-instagram/">The Internet Didn't kill counterculture but you won't find it on Instagram</a></h3>
-        <strong>by Caroline Busta</strong>
-        <p>Caroline Busta is a Berlin based writer and editor, who has written for multiple art journals (in New York and Berlin) and since founded her own media "channel and community" called New Models. She has been working and writing in this space since at least 2008.</p>
-        <p>In this article Busta makes the argument that counterculture does not look like it did when the term first appeared. You may see people dressed like punks or protesting or performing anti-establishment art online, but, according to Busta, this no longer represents a *counter* to culture. Her reasoning is the systems and platforms that are typically used to share and communicate on the internet are "a massively lucrative space of capitalization, [which] profits off the personal expression and political conflict of its users." In performing your values on instagram, facebook, youtube etc, you are benefitting those platforms more than any critique can perform change. Busta describes the tech hegemony, and "the complexity of global crises" as something that cannot be so simply countered like the punks of old, and so counterculture as we know it has changed. </p>
-        <p>One example she provides is the idea of anonymity or pseudonymity. If you divest yourself from your real name, your real face and identity, you aren't performing for the system to gain from. </p>
-        <p>I found Busta's ideas interesting, and generally agreed with her. It is so difficult to go on instagram or youtube and trust anyone is genuine in what they are trying to communicate, whether that is a cooking video, or a healthy choice, or in a critique of art, film or anything else. It makes sense that this is a consequence of the system and what the "Tech hegemony" has intentionally placed value on through the eyes of profit. When Busta talks of the system's "maximize engagement while obfuscating responsibility for the social and environmental damae it wreaks.", all I can think of is Cliff Kuang in User Friendly when he discusses the history of addiction in capitalism, and how now engagement is the most profitable addiction. How do you create a counterculture to the addiction of engagement? I suppose Busta is right in that you have little choice but to disengage.</p>
-        <br>
-        <h3><a href="https://geminiprotocol.net/docs/faq.gmi">The Gemini Protocol</a></h3>
-        <p>The Gemini Protocol project was started by someone who goes by the name of <i>Solderpunk</i> online. I can't confirm any "official" details of them as a person, but they seem to have credentials in the software world and describe themself as an "Internet decentralist and general digital malcontent/retrogrouch". It is interesting to confront this kind of pseudonymous author after just reading Caroline Busta's description of exactly this perhaps being what counterculture is on the internet. Solderpunk has not only carved out a place online to call their own free from corporate interests, but based on a different set of values is actively developing an entirely different <i>protocol</i> to HTML, something which I and many others outside the tech industry, scarcely realise was an option. Perhaps <i>punk</i> in your username is more punk than leather jackets and piercings these days. The project has also developed into a community project, so there are inputs from other members of the community, but Solderpunk is still the leader of the project.</p>
-        <p>The Gemini Protocol is a web protocol that unlike the standard HTML, which includes css and javascript and allows a lot of complex design and interaction, is generally limited to basic hierarchy of text. In their description of the project there is an extended metaphor to that of a Library.</p>
-        <blockquote>"You can explore the shelves solo, or you can join a book club and read alongside others. Libraries themselves generally don't make much effort to promote specific resources over others, and they certainly don't do so in cahoots with publishers. Libraries don't tell authors who is reading their works. If you stop visiting a library, the librarians don't chase you down and try to lure you back."</blockquote>
-        <p>This is not the internet of suggestions and algorithms and UI and slick visuals, this is a Library that you can search on the catalogue computer on the desk or you can browse the books that all have some unknown value until you pluck them off the shelf and see what they're about. You can read, and then maybe if you're feeling inspired you can write something of your own, and that's about it. This of course does also mean that this is an internet that cannot do much beyond share written text and the occasional image (although images are hidden behind links, you have to choose to click it after reading the description).</p>
-        <p>The Gemini Protocol is an interesting piece of the internet that is difficult to find and can't even be explored on the browsers a vast majority (99.99% seems like it would be an underestimate) of users have never used anything other than. But it represents something that is sometimes to hard to find, but often discussed in the design discourse, the internet we have now was never an inevitability. What if the founding metaphor of the internet had been a library? No doubt it would shift and move as different powers and players came into view, but surely we would have something different to what we have today. The value of writing and words and slowness as a core of the language built in to the system might also shift our perceptions and desires for what the internet should be. I'm not sure if Solderpunk knows about design futuring as a practice, but in creating their own little version of the internet they reveal a lot about the giant tech behemoth casting a long shadow over them.</p>
+      </div>
+      <br />
+      <h4>Readings</h4>
+      <h3>
+        <a
+          href="https://www.documentjournal.com/2021/01/the-internet-didnt-kill-counterculture-you-just-wont-find-it-on-instagram/"
+          >The Internet Didn't kill counterculture but you won't find it on
+          Instagram</a
+        >
+      </h3>
+      <strong>by Caroline Busta</strong>
+      <p>
+        Caroline Busta is a Berlin based writer and editor, who has written for
+        multiple art journals (in New York and Berlin) and since founded her own
+        media "channel and community" called New Models. She has been working
+        and writing in this space since at least 2008.
+      </p>
+      <p>
+        In this article Busta makes the argument that counterculture does not
+        look like it did when the term first appeared. You may see people
+        dressed like punks or protesting or performing anti-establishment art
+        online, but, according to Busta, this no longer represents a *counter*
+        to culture. Her reasoning is the systems and platforms that are
+        typically used to share and communicate on the internet are "a massively
+        lucrative space of capitalization, [which] profits off the personal
+        expression and political conflict of its users." In performing your
+        values on instagram, facebook, youtube etc, you are benefitting those
+        platforms more than any critique can perform change. Busta describes the
+        tech hegemony, and "the complexity of global crises" as something that
+        cannot be so simply countered like the punks of old, and so
+        counterculture as we know it has changed.
+      </p>
+      <p>
+        One example she provides is the idea of anonymity or pseudonymity. If
+        you divest yourself from your real name, your real face and identity,
+        you aren't performing for the system to gain from.
+      </p>
+      <p>
+        I found Busta's ideas interesting, and generally agreed with her. It is
+        so difficult to go on instagram or youtube and trust anyone is genuine
+        in what they are trying to communicate, whether that is a cooking video,
+        or a healthy choice, or in a critique of art, film or anything else. It
+        makes sense that this is a consequence of the system and what the "Tech
+        hegemony" has intentionally placed value on through the eyes of profit.
+        When Busta talks of the system's "maximize engagement while obfuscating
+        responsibility for the social and environmental damae it wreaks.", all I
+        can think of is Cliff Kuang in User Friendly when he discusses the
+        history of addiction in capitalism, and how now engagement is the most
+        profitable addiction. How do you create a counterculture to the
+        addiction of engagement? I suppose Busta is right in that you have
+        little choice but to disengage.
+      </p>
+      <br />
+      <h3>
+        <a href="https://geminiprotocol.net/docs/faq.gmi"
+          >The Gemini Protocol</a
+        >
+      </h3>
+      <p>
+        The Gemini Protocol project was started by someone who goes by the name
+        of <i>Solderpunk</i> online. I can't confirm any "official" details of
+        them as a person, but they seem to have credentials in the software
+        world and describe themself as an "Internet decentralist and general
+        digital malcontent/retrogrouch". It is interesting to confront this kind
+        of pseudonymous author after just reading Caroline Busta's description
+        of exactly this perhaps being what counterculture is on the internet.
+        Solderpunk has not only carved out a place online to call their own free
+        from corporate interests, but based on a different set of values is
+        actively developing an entirely different <i>protocol</i> to HTML,
+        something which I and many others outside the tech industry, scarcely
+        realise was an option. Perhaps <i>punk</i> in your username is more punk
+        than leather jackets and piercings these days. The project has also
+        developed into a community project, so there are inputs from other
+        members of the community, but Solderpunk is still the leader of the
+        project.
+      </p>
+      <p>
+        The Gemini Protocol is a web protocol that unlike the standard HTML,
+        which includes css and javascript and allows a lot of complex design and
+        interaction, is generally limited to basic hierarchy of text. In their
+        description of the project there is an extended metaphor to that of a
+        Library.
+      </p>
+      <blockquote>
+        "You can explore the shelves solo, or you can join a book club and read
+        alongside others. Libraries themselves generally don't make much effort
+        to promote specific resources over others, and they certainly don't do
+        so in cahoots with publishers. Libraries don't tell authors who is
+        reading their works. If you stop visiting a library, the librarians
+        don't chase you down and try to lure you back."
+      </blockquote>
+      <p>
+        This is not the internet of suggestions and algorithms and UI and slick
+        visuals, this is a Library that you can search on the catalogue computer
+        on the desk or you can browse the books that all have some unknown value
+        until you pluck them off the shelf and see what they're about. You can
+        read, and then maybe if you're feeling inspired you can write something
+        of your own, and that's about it. This of course does also mean that
+        this is an internet that cannot do much beyond share written text and
+        the occasional image (although images are hidden behind links, you have
+        to choose to click it after reading the description).
+      </p>
+      <p>
+        The Gemini Protocol is an interesting piece of the internet that is
+        difficult to find and can't even be explored on the browsers a vast
+        majority (99.99% seems like it would be an underestimate) of users have
+        never used anything other than. But it represents something that is
+        sometimes to hard to find, but often discussed in the design discourse,
+        the internet we have now was never an inevitability. What if the
+        founding metaphor of the internet had been a library? No doubt it would
+        shift and move as different powers and players came into view, but
+        surely we would have something different to what we have today. The
+        value of writing and words and slowness as a core of the language built
+        in to the system might also shift our perceptions and desires for what
+        the internet should be. I'm not sure if Solderpunk knows about design
+        futuring as a practice, but in creating their own little version of the
+        internet they reveal a lot about the giant tech behemoth casting a long
+        shadow over them.
+      </p>
     </main>
-</body>
+  </body>
 </html>
