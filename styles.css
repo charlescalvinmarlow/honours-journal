@@ -6,6 +6,11 @@
   font-style: normal;
 } */
 
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
 body {
   font-size: 1em;
   line-height: 1.5em;
@@ -29,4 +34,31 @@ figcaption {
 
 h5 {
 	text-transform: uppercase;
+}
+
+/* honours page styling */
+
+/* thumbnails */
+
+.exp_log_thumbs {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-flow: row wrap;
+}
+
+.exp_log_thumbs li {
+  max-width: 170px;
+  flex: auto;
+  margin: 5px;
+  padding: 5px 15px;
+  list-style: none;
+  border: solid 1px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.front_thumbnail {
+  
 }
